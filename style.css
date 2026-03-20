@@ -1,0 +1,30 @@
+/* Hide Streamlit menu and footer */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Professional Background */
+.stApp {
+    background-color: #0f111a;
+    color: white;
+}
+
+/* Form Styling */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    background: transparent;
+    color: white;
+}
+
+button[type="submit"] {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
