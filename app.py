@@ -35,7 +35,7 @@ if selected == "Home":
         st.write("""
         Engineering student at IOE Purwanchal Campus. 
         I build intelligent systems and beautiful web interfaces. 
-        Currently 3rd on the CS50x AI Nepal Leaderboard.
+       
         """)
         if st.button("Download CV"):
             st.write("Generating Download Link...")
